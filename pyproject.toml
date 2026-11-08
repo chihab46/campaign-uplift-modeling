@@ -1,0 +1,18 @@
+[project]
+name = "campaign-uplift-modeling"
+version = "0.1.0"
+description = "Campaign uplift analysis and targeting baselines on the Criteo uplift dataset."
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "pandas>=3.1.1",
+    "pyarrow>=26.0.1",
+    "scikit-learn>=1.9.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+]
